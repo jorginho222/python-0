@@ -41,9 +41,9 @@ import sys
 # print(names_b_set.intersection(names_set))
 
 # ports_dict = {
-#     '7051': 'Front admin',
-#     '4007': 'Front mant',
-#     '4006': 'Back sysv'
+#     '3455': 'Front admin',
+#     '8977': 'Front mant',
+#     '5444': 'Back sysv'
 # }
 # print(ports_dict['4006'])
 # ports_dict['8092'] = 'BDD sysv'
@@ -162,8 +162,8 @@ import sys
 #
 # pionono_function(capas=3)
 
-def add_to_list(list):
-    list.append(1)
+# def add_to_list(list):
+#     list.append(1)
 
 #
 # list = []
@@ -172,12 +172,12 @@ def add_to_list(list):
 # add_to_list(list.copy())
 #
 # print(list)
-
-def func_a():
-    return func_b()
-
-def func_b():
-    return "hello from func b!"
-
-print(func_a())
+#
+# def func_a():
+#     return func_b()
+#
+# def func_b():
+#     return "hello from func b!"
+#
+# print(func_a())
 
